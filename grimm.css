@@ -19,6 +19,7 @@ p {
     margin: 10px;
 }
 p::first-letter {
+    font-family: fantasy;
     font-weight: bold;
     font-size: 200%;
     color: darkgreen;

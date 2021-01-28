@@ -1,0 +1,53 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    float: left;
+}
+
+.menu > li:not(:last-child) {
+    margin-right: 60px;
+}
+
+body{
+    font-size: 18px;
+}
+
+.blog_post {
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-right {
+    float: right;
+    padding: 10px;
+}
+
+.image-left {
+    float: left;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 181, 44);
+}
+
+#header-background {
+    width: 100%;
+    height: 100px;
+    background-image: url("./checker.jpg");
+}
+
+#footer-background {
+    width: 100%;
+    height: 100px;
+    background-image: url("./checker.jpg");
+}
+
+.container {
+    
+}
