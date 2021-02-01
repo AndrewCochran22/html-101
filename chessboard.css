@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    background-color: #f77f00;
+    width: 100px;
+    height: 80px;
+}
+
+.row:nth-child(even) > .box:nth-child(odd) {
+    background-color: white
+}
+
+.row:nth-child(odd) > .box:nth-child(even) {
+    background-color: white
+}
